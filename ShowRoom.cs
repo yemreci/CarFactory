@@ -28,6 +28,7 @@
             Cars.Remove(car);
         }
         public void DisplayCars()
+        {
             Console.WriteLine("Cars in the showroom:");
             foreach (Car car in Cars)
             {
